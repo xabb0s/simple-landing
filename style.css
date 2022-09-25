@@ -1,0 +1,269 @@
+/* main font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* logo font */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.black-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000099;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.container {
+  width: 1140px;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  color: #FFA800;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Italiana', serif;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  gap: 60px;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+.nav-item {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.srch-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.header-content {
+  padding-top: 250px;
+  z-index: 10;
+}
+
+.header-title {
+  color: #FFFFFF;
+  font-size: 64px;
+  font-weight: 700;
+  width: 706px;
+}
+
+.yellow-text {
+  color: #FFA800;
+}
+
+.header-btn {
+  margin-top: 111px;
+  display: inline-block;
+  padding: 15px 38px;
+  background: #FFA800;
+  color: #000000;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+
+.aside {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 50px;
+  gap: 50px;
+  font-size: 40px;
+  height: 100vh;
+  justify-content: center;
+  color: #FFA800;
+  z-index: 10;
+}
+
+.aside-item {
+  cursor: pointer;
+}
+
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+  color: #FFFFFF;
+}
+
+.card-one {
+  width: 600px;
+  height: 500px;
+  background: url("./assets/main-1-photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-two {
+  transform: translateY(30px);
+  width: 600px; 
+  height: 500px;
+  background: url("./assets/main-2-photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-three {
+  padding-top: 40px;
+}
+
+.card-three h1 {
+  transform: translateX(-60px);
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.yellow-line {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 2px;
+  background: #FFA800;
+}
+
+.card-three p {
+  font-size: 28px;
+  font-weight: 500;
+  width: 536px;
+}
+
+.card-three a {
+  margin-top: 60px;
+  margin-left: 100px;
+  display: inline-block;
+  padding: 15px 38px;
+  background: #FFA800;
+  color: #000000;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.yellow-line-2 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 2px;
+  background: #FFA800;
+}
+
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  width: 708px;
+  z-index: 10;
+}
+
+.about h1 {
+  padding-top: 50px;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-weight: 28px;
+  font-weight: 500;
+}
+
+.about ul {
+  margin-top: 30px;
+  color: #FFA800;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.about ul a {
+  display: inline-block;
+  padding: 15px 38px;
+  background: #FFA800;
+  color: #000000;
+  font-weight: 700;
+  border-radius: 999px;
+}
+
+.black-filter-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #00000099;
+  backdrop-filter: blur(20px);
+}
+
+.to-top {
+  font-size: 16px;
+}
